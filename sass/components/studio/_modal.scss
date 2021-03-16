@@ -45,7 +45,7 @@
     transition: var(--transition-function);
 }
 
-.backdrop-modal__button {
+.modal-close__button {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -67,7 +67,7 @@
 }
 }
 
-.backdrop-modal__svg {
+.modal-close__svg {
     transition: fill var(--transition-function);
 
 &:hover,
@@ -145,7 +145,7 @@
     border-radius: 4px;
     font-family: inherit;
     height: 40px;
-    margin-top: 4px;
+    
 
 &:focus + .order__svg {
     fill: var(--accent-text);
@@ -167,9 +167,10 @@
 
 .order__thumb {
   position: relative;
+  margin-top: 4px;
 }
   
-.order__svg {
+.order__icon {
     position: absolute;
     top: 50%;
     left: 12px;

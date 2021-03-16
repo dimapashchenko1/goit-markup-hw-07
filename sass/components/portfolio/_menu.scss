@@ -1,9 +1,9 @@
-.menu{
+.filter{
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.menu__list {
+.filter__list {
     display: flex;
     justify-content: center;
     padding-top: 0px;
@@ -11,12 +11,12 @@
     margin-bottom: 50px;
 }
 
-.menu__item:not(:last-child) {
+.filter__item:not(:last-child) {
     margin-right: 8px
 }
 
 
-.menu__link {
+.filter__button {
     background-color: var(--grey-team-background);
     font-style: normal;
     font-weight: 500;

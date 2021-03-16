@@ -11,9 +11,10 @@
 }
 
 
-.address {
+.footer-contact {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .contact {
@@ -34,8 +35,8 @@
     color: var(--blue-text)
 }
 
-.site-address__text {
-    margin-top: 20px;
+.footer-contact__text {
+    margin-top: 0px;
     margin-bottom: 0px;
 
     font-style: normal;
@@ -46,13 +47,13 @@
     color: var(--white-text);
 }
 
-.address-list__item {
+.footer-contact__item {
     
     margin-top: 9px;
     margin-bottom: 0px;
 }
 
-.address-list__link {
+.footer-contact__link {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -101,7 +102,7 @@
 }
 }
   
-.natwork__svg {
+.network__icon {
     width: 20px;
     height: 20px;
     fill: currentColor;

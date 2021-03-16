@@ -15,15 +15,15 @@
     margin-bottom: 50px;
 }
 
-.clients__name {
+.clients__list {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
+    margin-left: -30px;
     margin-top: -30px;
 }
   
 .clients__item {
-    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 30px;
 }
 
@@ -49,7 +49,7 @@
 }
 }
   
-.clients__logo {
+.clients__icon {
     fill: currentColor;
 }
   
