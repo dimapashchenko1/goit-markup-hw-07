@@ -1433,6 +1433,7 @@ main {
   color: var(--black-text);
   -webkit-transition: var(--transition-function);
   transition: var(--transition-function);
+  border: none;
 }
 
 .filter__button:hover, .filter__button:focus {
